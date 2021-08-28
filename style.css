@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Capriola', sans-serif;
+}
+
+.container {
+    width: 300px;
+    height: fit-content;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+    position: relative;
+}
+
+/* User Info */
+
+img {
+    filter: blur(3px);
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid white;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    color: white;
+}
+.userInfo {
+    padding: 10px;
+    border-top: 1px solid rgb(170, 170, 170);
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.userInfo p {
+    font-size: 14px;
+    padding-top: 5px;
+    color: #ada7a7;
+    font-weight: 100px;
+}
+
+/* Info */
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid rgb(230, 230, 230);
+    color: #ada7a7;
+}
+
+.friends {
+    display: flex;
+    padding: 10px;
+}
+
+.friends p {
+    font-size: 14px;
+}
+
+.icon {
+    padding-right: 10px;
+    font-size: 17px;
+}
+.joined {
+    padding: 10px;
+    font-size: 14px;
+}
